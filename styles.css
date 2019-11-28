@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+.contenedor {
+    background: #f8f5f5;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	
+}
+body {
+    background: url(https://album.es/fotos/uploads/imagenes/thumbs/fondo-blanco-con-arboles-de-navidad-formato-classic_navidades-49-classic_1200px.jpg);
+
+}
+
+.header {
+    background: rgb(197, 12, 6);
+    color:#ffff;
+    padding: 20px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    background-color: rgb(243, 69, 46);
+    color: #ffff;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+article {
+    border-bottom: 1px solid #000;
+}
+article h1, 
+article h2,
+article h3 {
+    text-align: center;
+}
+
+
+
+.imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background: rgb(197, 12, 6);
+    color: #ffff;
+    text-align: center;
+}
