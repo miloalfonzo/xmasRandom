@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: helvetica;
+    font-family: 'Trebuchet MS';
 }
 
 .contenedor {
@@ -12,7 +12,7 @@
 	
 }
 body {
-    background: url(https://album.es/fotos/uploads/imagenes/thumbs/fondo-blanco-con-arboles-de-navidad-formato-classic_navidades-49-classic_1200px.jpg);
+    background: #ffff;
 
 }
 
@@ -39,6 +39,7 @@ button {
 article {
     border-bottom: 1px solid #000;
 }
+article p,
 article h1, 
 article h2,
 article h3 {
